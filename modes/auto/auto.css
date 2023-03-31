@@ -1,0 +1,21 @@
+body {
+  background-color: #797392;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.hour {
+  display: inline-block;
+  width: 64px;
+  height: 48px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.ligne {
+  padding-bottom: 32px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}

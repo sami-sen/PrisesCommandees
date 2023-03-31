@@ -1,0 +1,16 @@
+body {
+  background-color: #797392;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.btn-three {
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.btn-three:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}

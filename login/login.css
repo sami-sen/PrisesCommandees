@@ -1,0 +1,52 @@
+body {
+    background-color: #797392;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.login {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    padding: 64px 0px;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.connect {
+    font-size: 32px;
+    padding-bottom: 64px;
+}
+
+.infos {
+    padding: 96px;
+    background-color: #3C3535;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.button {
+    background-color: #A19CB9;
+    padding: 8px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    width: 100%;
+}
+
+.carreRose {
+    padding: 0px 16px;
+    background-color: #A19CB9;
+}
+
+.password {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.input {
+    padding-bottom: 16px;
+}

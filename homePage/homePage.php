@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion</title>
+    <title>Page d'acceuil</title>
     <link rel="stylesheet" href="/login/login.css">
     <link rel="shortcut icon" href="/prises.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,45 +16,21 @@
 </head>
 
 <body>
-    <div>
-        <a href="/index.php">
-            <div class="login">
-                Cliquez ici pour revenir a la page d'acceuil
-            </div>
-        </a>
-    </div>
-    <div class="container">
-        <div class="infos">
-            <div class="connect">
-                Connexion
-            </div>
-            <div class="input">
-                <div>
-                    identifiant
-                </div>
-                <input>
-            </div>
-            <div class="input">
-                <div>
-                    mot de passe
-                </div>
-                <input type="password">
-            </div>
-            <div class="input">
-                <a href="../password/password.php">
-                    <div class="password">
-                        Mot de passe oublié ?
-                    </div>
-                </a>
-            </div>
-            <a href="/prises/prise1/prise1.php">
-                <div>
-                    <button class="button">login</button>
+    <div>Bonjour 'utilisateur'</div>
+    <a href="/index.php">
+        <div>se déconnecter</div>
+    </a>
+    
+    <div class="input">
+            <a href="../password/password.php">
+                <div class="password">
+                    Changer de mot de passe
                 </div>
             </a>
         </div>
-        <div class="carreRose"></div>
-    </div>
+    <a href="/PrisesCommandees-1/choixMode/choixMode.php">
+    <div>accèder au systeme</div>
+    </a>
 
 </body>
 

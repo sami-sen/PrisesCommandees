@@ -221,7 +221,7 @@
             <button class="slot"></button>
         </div>
         <ul>clique ici pour revenir :
-            <a href="../../index.php"><li>à la page d'acuueil</li></a>
+            <a href="../../index.php"><li>à la page d'acceuil</li></a>
             <a href="../../choixPrises/choixprises.php"><li>au choix des prises</li></a>
         </ul>
 

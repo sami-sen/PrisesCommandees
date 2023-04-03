@@ -19,3 +19,8 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
 }
+
+select {
+  background-color: #797392;
+  margin: 8px 16px;
+}

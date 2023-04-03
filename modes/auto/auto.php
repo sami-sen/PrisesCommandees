@@ -42,8 +42,15 @@
             <div class="hour" onclick="alert('Vous avez cliqué sur 23h')">23h</div>
             </div>
         </div>
-        <a href="/choixPrises/choixprises.php">
-            <div>Revenir au choix des prises</div>
+        <a href="../../choixMode/choixMode.php">
+            <div>Revenir au choix des modes</div>
         </a>
+        
+        <select>
+            <option>Choisi une des options</option>
+            <option>Prise 1</option>
+            <option>Prise 2</option>
+            <option>Prise 3</option>
+        </select>
     </body>
 </html>

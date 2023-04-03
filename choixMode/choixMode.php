@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prise 1</title>
+    <title>Choix du mode</title>
     <link rel="shortcut icon" href="/prises.png">
-    <link rel="stylesheet" href="prise1.css">
+    <link rel="stylesheet" href="choixMode.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400&display=swap"
         rel="stylesheet">
@@ -15,7 +15,7 @@
 <body>
     <div>
         <div>
-            <a href="/index.php">
+            <a href="/PrisesCommandees-1/index.php">
             <div class="disconnect">
                 <p>Se déconnecter</p>
                 <span class="material-symbols-outlined">door_open</span>
@@ -30,15 +30,15 @@
                 <h3>
                     Mode manuel
                 </h3>
-                <a href="../../../modes/manuel/manuel.php">
+                <a href="../../../PrisesCommandees-1/modes/manuel/manuel.php">
                     <img class="img" src="/modes/Images/power.jpeg">
                 </a>
             </div>
             <div class="wrap">
                 <h3>
-                    Mode automatique
+                    Programmation quotidienne
                 </h3>
-                <a href="../../../modes/auto/auto.php">
+                <a href="../../../PrisesCommandees-1/modes/auto/auto.php">
                     <img class="img" src="/modes/Images/auto.jpeg">
                 </a>
             </div>
@@ -46,7 +46,7 @@
                 <h3>
                     Création de scénarios pré-enregitrés
                 </h3>
-                <a href="../../modes/scenarios/scenarios.php">
+                <a href="../../PrisesCommandees-1/modes/scenarios/scenarios.php">
                     <img class="img" src="/modes/Images/Capture d’écran 2023-03-30 à 14.03.29.png">
                 </a>
             </div>

@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <a href="/login/login.php">
+    <a href="/index.php">
         <div>
             Cliquer ici pour vous connecter
         </div>

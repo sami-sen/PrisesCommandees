@@ -15,44 +15,46 @@
 <body>
     <div>
         <div>
-            <a href="/PrisesCommandees-1/index.php">
+            <a href="/index.php">
             <div class="disconnect">
                 <p>Se déconnecter</p>
                 <span class="material-symbols-outlined">door_open</span>
             </div>
             </a>
             <h1 class="title">
-                Quel mode veux tu utiliser
+                Choisir le mode de mise sous tension
             </h1>
         </div>
         <div class="container">
             <div class="wrap">
-                <h3>
-                    Mode manuel
-                </h3>
                 <a href="../../../PrisesCommandees-1/modes/manuel/manuel.php">
                     <img class="img" src="/modes/Images/power.jpeg">
                 </a>
+                <h3>
+                    Mode manuel
+                </h3>
             </div>
             <div class="wrap">
-                <h3>
-                    Programmation quotidienne
-                </h3>
                 <a href="../../../PrisesCommandees-1/modes/auto/auto.php">
                     <img class="img" src="/modes/Images/auto.jpeg">
                 </a>
+                <h3>
+                    Programmation <br>
+                    quotidienne
+                </h3>
             </div>
             <div class="wrap">    
-                <h3>
-                    Création de scénarios pré-enregitrés
-                </h3>
                 <a href="../../PrisesCommandees-1/modes/scenarios/scenarios.php">
                     <img class="img" src="/modes/Images/Capture d’écran 2023-03-30 à 14.03.29.png">
                 </a>
+                <h3>
+                    Création de <br>
+                    scénarios
+                </h3>
             </div>
         </div>
-        <div>
-            <a href="../../index.php">
+        <div class="revenir">
+            <a href="../homePage/homePage.php">
                 <div>Revenir a la page d'accueil</div>
             </a>
         </div>

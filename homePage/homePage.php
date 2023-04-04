@@ -6,32 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'acceuil</title>
-    <link rel="stylesheet" href="/login/login.css">
+    <link rel="stylesheet" href="homePage.css">
     <link rel="shortcut icon" href="/prises.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
-    <div>Bonjour 'utilisateur'</div>
-    <a href="/index.php">
-        <div>se déconnecter</div>
-    </a>
-    
-    <div class="input">
+    <div class="container">
+        <div class="containerBonjour">
+            <h1 class="bonjour">Bonjour <span class="user"> 'utilisateur'
+                <span class="material-symbols-outlined">edit</span></span>
+            </h1>
+        </div>
+        <div class="input">
+            <a href="/index.php">
+            <div>se déconnecter</div>
+            </a>
             <a href="../password/password.php">
                 <div class="password">
                     Changer de mot de passe
                 </div>
             </a>
-        </div>
-    <a href="/PrisesCommandees-1/choixMode/choixMode.php">
-    <div>accèder au systeme</div>
-    </a>
-
+            </div>
+    </div>
+    <div class="containerAccess">
+        <a href="/PrisesCommandees-1/choixMode/choixMode.php">
+        <h2 class="access">Accèder au systeme</h2>
+        </a>
+    </div>
 </body>
 
 </html>

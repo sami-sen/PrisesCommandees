@@ -12,7 +12,21 @@ body {
     text-decoration: underline;
 }
 
+.bonjour {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3C3535;
+    margin: 128px 128PX 64PX;
+}
+
+.containerAccess {
     display: flex;
     justify-content: center;
 }
@@ -48,5 +62,19 @@ body {
 }
 
 .input {
-    padding-bottom: 16px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user {
+    color: #ffd0ff
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+}
+
+a {
+    color: #ffd0ff;
 }

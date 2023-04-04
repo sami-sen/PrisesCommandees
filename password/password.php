@@ -28,9 +28,9 @@
 <?php
 // Connexion à la base de données
 $servername = "nom_du_serveur";
-$username = "nom_utilisateur";
+$username = "root";
 $password = "mot_de_passe";
-$dbname = "nom_de_la_base_de_donnees";
+$dbname = "prises";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {

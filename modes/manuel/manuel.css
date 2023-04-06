@@ -4,13 +4,79 @@ body {
   color: white;
 }
 
-.btn-three {
-  color: #FFF;
-  transition: all 0.5s;
-  position: relative;
+h1 {
+  padding-bottom: 32px;
 }
 
-.btn-three:hover::before {
-  opacity: 0;
-  transform: scale(0.5, 0.5);
+h2 {
+  padding: 0px 16px;
+}
+
+.disconnect {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.mode {
+  padding-top: 48px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 128px 128PX 64PX;
+}
+
+.containerPrise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 96px;
+  background-color: #3C3535;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.select {
+  background-color: #3C3535;
+  border-color: #3C3535;
+  color: white;
+  font-size: 16px;
+}
+
+.prise {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-88 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 12px 64px;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20, 167, 62, 1) 0%, rgba(102, 247, 113, 1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
 }

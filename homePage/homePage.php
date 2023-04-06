@@ -19,7 +19,7 @@
 <body>
     <div class="container">
         <div class="containerBonjour">
-            <h1 class="bonjour">Bonjour <span class="user"> 'utilisateur'
+            <h1 class="bonjour">Bonjour <span class="user"> <?php echo"utilisateur"?>
                 <span class="material-symbols-outlined">edit</span></span>
             </h1>
         </div>

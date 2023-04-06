@@ -32,6 +32,7 @@
                 </a>
                 <h3>
                     Mode manuel
+                    <br><br> 
                 </h3>
             </div>
             <div class="wrap">

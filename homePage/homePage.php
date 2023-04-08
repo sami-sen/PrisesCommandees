@@ -1,3 +1,7 @@
+<?php 
+    $nomPersonne = "User1";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,8 +23,7 @@
 <body>
     <div class="container">
         <div class="containerBonjour">
-            <h1 class="bonjour">Bonjour <span class="user"> <?php echo"utilisateur"?>
-                <span class="material-symbols-outlined">edit</span></span>
+            <h1 class="bonjour">Bonjour <span class="user"> <?php echo $nomPersonne?></span>
             </h1>
         </div>
         <div class="input">
@@ -31,6 +34,9 @@
                 <div class="password">
                     Changer de mot de passe
                 </div>
+            </a>
+            <a href="../user/user.php">
+                <div class="user">Changer de nom d'utilisateur</div>
             </a>
             </div>
     </div>
